@@ -1,0 +1,13 @@
+problem o/f=0.98, rocket equilibrium tcest,k=3800
+case=1
+	 p,bar=20.0, 
+	 pi/p=200,
+react
+	 fuel=N2H4(L) wt% 100 t=298.15
+	 oxid=O2(L) wt% 100
+output short transport siunits
+	 plot p pip mach aeat cf vis pran pranfz cp gam isp ivac t
+end
+
+
+
