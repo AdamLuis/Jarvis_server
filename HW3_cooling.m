@@ -95,6 +95,7 @@ for k = 1:n_thrust
 %% Looking at the COOLANT side now
 % need to input the N and coolant pipe diameter from another script
 % This has been edited online
+% And it works really quickly
 
 Pr_cool = (mu_cool*Cp_cool)/K_cool;
 D_cool = 0.002;
