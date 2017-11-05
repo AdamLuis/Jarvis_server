@@ -92,7 +92,9 @@ for k = 1:n_thrust
  end
 
 
-% Looking at the COOLAND side now
+%% Looking at the COOLANT side now
+% need to input the N and coolant pipe diameter from another script
+
 Pr_cool = (mu_cool*Cp_cool)/K_cool;
 D_cool = 0.002;
 h_c = 0.029*((Cp_cool*mu_cool^0.2)/Pr_cool^(2/3)) *(M_dot_cool/D_cool^0.2)*(T_cool/Tw)^0.55;  %% WONKEY AS FREAK
